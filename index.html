@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoomBurger</title>
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container wow animate__backInDown">
+            <div class="logo"><img src="images/logo.png" alt="logo"> </div>
+            <div class="menu-min" id="menu-min">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px"
+                    height="17px">
+                    <path fill-rule="evenodd" fill="rgb(178, 143, 102)"
+                        d="M-0.000,17.000 L-0.000,14.000 L30.000,14.000 L30.000,17.000 L-0.000,17.000 ZM-0.000,7.000 L30.000,7.000 L30.000,10.000 L-0.000,10.000 L-0.000,7.000 ZM-0.000,0.000 L30.000,0.000 L30.000,3.000 L-0.000,3.000 L-0.000,0.000 Z" />
+                </svg>
+            </div>
+            <nav class="menu animate__backInDown" id="menu">
+                <ul>
+                    <div class="close">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492 492"
+                            style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <li>
+                        <a href="#food-menu">Меню</a>
+                    </li>
+                    <li>
+                        <a href="#differences">Наши преимущества</a>
+                    </li>
+                    <li>
+                        <a href="#about">О Boomburger</a>
+                    </li>
+                    <li>
+                        <a href="#reviews">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#stocks">Акции</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="adress">
+                <img src="images/icons/icon_adress.png" alt="icon">
+                <div class="adress-text">г. Москва, м. Лубянка Никольская ул., 24</div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-info wow animate__backInLeft">
+                <div class="main-text">
+                    <h1>Сочные бургеры <br>из свежих продуктов</h1>
+                    <div class="main-text-description">
+                        Приходите попробовать наши бургеры.
+                        <div>Благодаря открытой кухне вы сможете увидеть процесс
+                            приготовления вашего любимого фастфуда</div>
+                    </div>
+                    <div class="main-text-action">
+                        <button class="btn" id="btn">Забронировать стол</button>
+                    </div>
+
+                    <div class="advantages">
+                        <div class="advantages-item">
+                            <img src="images/icons/chef.png" alt="шеф">
+                            <div class="advantages-item-text">Огромный выбор бургеров
+                                из любого мяса, птицы и морепродуктов</div>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="images/icons/food-tray.png" alt="блюдо">
+                            <div class="advantages-item-text">
+                                Приготовим бургер любого размера за 15 минут или
+                                забирайте бесплатно
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-stock wow animate__backInRight">
+                <div class="main-image">
+                    <div class="main-stock-info">
+                        <div class="main-stock-description">
+                            <div>Акция 28.07-29.07</div>
+                        </div>
+                        <div class="main-stock-price">
+                            <div class="main-stock-new-price"> 550 руб. </div>
+                            <div class="main-stock-old-price"> 850 руб. </div>
+                        </div>
+                    </div>
+                    <img src="images/burger-fire.png" alt="Большой бургер">
+                </div>
+                <div class="main-image-description">
+                    <h3>Грязный СанчеZ</h3>
+                    <div>котлета из мраморной говядины, бекон, сыр чеддер, салат,вишневый соус, фирменный соус</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about wow animate__fadeInTopLeft" id="about">
+        <div class="container">
+            <h2>О BoomBurger</h2>
+            <div class="about-description">
+                <div>Команда «BB» решила найти рецепт идеального бургера, который смог бы утолить любой голод и быть
+                    настоящим произведением искусства!
+                </div>
+                <div>Мы отправились в гастрономическое путешествие по разным странам, катались по городам Америки и
+                    Европы в
+                    поисках лучших секретов бургерной индустрии… но в результате поняли — идеальный бургер — это бургер,
+                    приготовленный из качественных ингредиентов.
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/burgers.png" alt="Бургеры">
+            </div>
+        </div>
+    </section>
+    <section class="differences wow animate__fadeInTopRight" id="differences">
+        <div class="container">
+            <div class="differences-title">
+                <h2>Чем мы отличаемся</h2>
+                <img src="images/pepper.png" alt="перчик">
+            </div>
+            <div class="differences-descriptions">
+                <div class="differences-items">
+                    <div class="differences-item" id="plant">
+                        <img src="images/icons/plant.png" alt="растение">
+                        <div>Только натуральные фермерские продукты</div>
+                    </div>
+                    <div class="differences-item" id="cooking">
+                        <img src="images/icons/cooking.png" alt="кухня">
+                        <div> Открытая кухня — посмотрите, как готовится ваш бургер</div>
+                    </div>
+                </div>
+                <div class="differences-items big-burger">
+                    <img src="images/big-burger.png" alt="большой бургер">
+                </div>
+                <div class="differences-items">
+                    <div class="differences-item" id="dance">
+                        <img src="images/icons/dance.png" alt="танцы">
+                        <div> В нашем ресторане всегда атмосфера праздника</div>
+                    </div>
+
+                    <div class="differences-item" id="dog">
+                        <img src="images/icons/dog.png" alt="четвероногие">
+                        <div>Dog friendly — к нам можно с четвероногим другом</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="food-menu wow animate__zoomIn" id="food-menu">
+        <div class="container">
+            <h2>Меню </h2>
+            <div class="food-menu-filter">
+                <div class="food-menu-categories chicken">
+                    <img src="images/icons/chicken.png" alt="цыпленок">
+                    <div>цыпленок</div>
+                </div>
+                <div class="food-menu-categories cow">
+                    <img src="images/icons/cow.png" alt="говядина">
+                    <div>говядина</div>
+                </div>
+                <div class="food-menu-categories duck">
+                    <img src="images/icons/duck.png" alt="утка">
+                    <div>утка</div>
+                </div>
+                <div class="food-menu-categories crab">
+                    <img src="images/icons/crab.png" alt="краб">
+                    <div>краб</div>
+                </div>
+
+
+            </div>
+            <div class="food-menu-slider">
+                <div class="food-menu-slider-item cow">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-sanchez.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title ">Грязный СанчеZ</div>
+                        <div class="slider-description-text">
+                            котлета из мраморной говядины, бекон, сыр чеддер, салат, вишневый соус, фирменный соус</div>
+                    </div>
+                </div>
+                <div class="food-menu-slider-item cow chicken">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-elvin.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Красавчик Элвин</div>
+                        <div class="slider-description-text">
+                            котлета из мраморной говядины, бекон, сыр чеддер, помидор, салат, фирменный соус барбекю
+                        </div>
+                    </div>
+                </div>
+                <div class="food-menu-slider-item cow">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-sherif.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Местный шериф</div>
+                        <div class="slider-description-text">
+                            котлета из мраморной говядины, маринованный огурчик, сыр чеддер, помидор, салат
+                        </div>
+                    </div>
+                </div>
+                <div class="food-menu-slider-item crab">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-capitalizm.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Дух Капитализма</div>
+                        <div class="slider-description-text">
+                            котлета из мраморной говядины, бекон, сыр чеддер, помидор, салат, фирменный соус барбекю
+                        </div>
+                    </div>
+                </div>
+                <div class="food-menu-slider-item duck">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-sanchez.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Веселая утка</div>
+                        <div class="slider-description-text">котлета из утки, копченый соус, жареный лук, сыр чеддер,
+                            салат</div>
+                    </div>
+                </div>
+                <div class="food-menu-slider-item chicken">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-capitalizm.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Огненный Нэшвилл</div>
+                        <div class="slider-description-text">
+                            хрустящая куриная котлета, острый соус, маринованные огурчики, салат, сыр чеддер
+                        </div>
+                    </div>
+                </div>
+                <div class="food-menu-slider-item chicken">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-elvin.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Медовый Бруно</div>
+                        <div class="slider-description-text">
+                            куриная котлета, медово-горчичный соус, сыр чеддер, помидор, салат
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-menu-slider-item crab">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-sanchez.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Краб Майами</div>
+                        <div class="slider-description-text">
+                            котлета из крабового мяса, сливочный соус, авокадо, салат романо, лимонный акцент
+                        </div>
+                    </div>
+                </div>
+                <div class="food-menu-slider-item duck">
+                    <div class="food-menu-item-image">
+                        <img src="images/menu-sherif.png">
+                    </div>
+                    <div class="slider-description">
+                        <div class="slider-description-title">Уточка с апельсином</div>
+                        <div class="slider-description-text">
+                            котлета из утки, апельсиновый соус, салат, краснокочанная капуста, сыр бри
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews wow animate__slideInUp" id="reviews">
+        <div class="container">
+            <div class="reviews-title">
+                <img src="images/pepper2.png" alt="Перчик">
+                <h2>Отзывы</h2>
+            </div>
+            <div class="reviews-slider">
+                <div class="review-slider">
+                    <div class="rewier-info">
+                        <div class="rewier-info-about">
+                            <div class="rewier-info-icons">
+                                <div class="rewier-info-icon"><img src="images/icons/facebook2.png" alt="facebook">
+                                </div>
+                                <div class="rewier-info-icon"><img src="images/icons/instagram2.png" alt="instagram">
+                                </div>
+                            </div>
+                            <div class="rewier-info-name">Роман</div>
+                        </div>
+                        <div class="rewier-info-photo">
+                            <img src="images/ava/roman.png" alt="photo">
+                        </div>
+                    </div>
+                    <div class="rewier-info-title">Любимый бургер:</div>
+                    <div class="rewier-info-love">Самая быстрая курочка Запада (KING SIZE)</div>
+                    <div class="rewier-description">
+                        Круто отметили день рождения
+                        Прекрасное обслуживание, заказали
+                        15 бургеров на всех, никто не остался равнодушным! В общем Я рекомендую этот ресторан - Наш
+                        ресторан.
+                    </div>
+                </div>
+                <div class="review-slider">
+                    <div class="rewier-info">
+                        <div class="rewier-info-about">
+                            <div class="rewier-info-icons">
+                                <div class="rewier-info-icon"><img src="images/icons/facebook2.png" alt="facebook">
+                                </div>
+                                <div class="rewier-info-icon"><img src="images/icons/instagram2.png" alt="instagram">
+                                </div>
+                            </div>
+                            <div class="rewier-info-name">Мария</div>
+                        </div>
+                        <div class="rewier-info-photo">
+                            <img src="images/ava/mariya.png" alt="photo">
+                        </div>
+                    </div>
+                    <div class="rewier-info-title">Любимый бургер:</div>
+                    <div class="rewier-info-love">Синий крабсбургер</div>
+                    <div class="rewier-description">
+                        Очень нравится формат заведения, такого раньше не видела! Бургеры очень интересные по вкусу.
+                        Ингредиенты тоже супер: необычные, качественные, вкусные (корень лотоса, морепродукты).
+                    </div>
+                </div>
+                <div class="review-slider">
+                    <div class="rewier-info">
+                        <div class="rewier-info-about">
+                            <div class="rewier-info-icons">
+                                <div class="rewier-info-icon">
+                                    <img src="images/icons/facebook2.png" alt="facebook">
+                                </div>
+                                <div class="rewier-info-icon">
+                                    <img src="images/icons/instagram2.png" alt="instagram">
+                                </div>
+                            </div>
+                            <div class="rewier-info-name">Наталия</div>
+                        </div>
+                        <div class="rewier-info-photo">
+                            <img src="images/ava/natalia.png" alt="photo">
+                        </div>
+                    </div>
+                    <div class="rewier-info-title">Любимый бургер:</div>
+                    <div class="rewier-info-love">Завтрак Капитана Америки</div>
+                    <div class="rewier-description">
+                        О кухне слышала много хороших отзывов,все правда. Большие порции, опять таки оооочень
+                        вкусно.
+                        Рекомендую этот ресторан, всем именинникам – каждому уделяют особое внимание.
+                    </div>
+
+                </div>
+                <div class="review-slider">
+                    <div class="rewier-info">
+                        <div class="rewier-info-about">
+                            <div class="rewier-info-icons">
+                                <div class="rewier-info-icon"><img src="images/icons/facebook2.png" alt="facebook">
+                                </div>
+                                <div class="rewier-info-icon"><img src="images/icons/instagram2.png" alt="instagram">
+                                </div>
+                            </div>
+                            <div class="rewier-info-name">Екатерина</div>
+                        </div>
+                        <div class="rewier-info-photo">
+                            <img src="images/ava/kate.jpeg" alt="photo">
+                        </div>
+                    </div>
+                    <div class="rewier-info-title">Любимый бургер:</div>
+                    <div class="rewier-info-love">Краб Майами</div>
+                    <div class="rewier-description">
+                        Круто отметили день рождения
+                        Прекрасное обслуживание, заказали
+                        15 бургеров на всех, никто не остался равнодушным! В общем Я рекомендую этот ресторан - Наш
+                        ресторан.
+                    </div>
+                </div>
+                <div class="review-slider">
+                    <div class="rewier-info">
+                        <div class="rewier-info-about">
+                            <div class="rewier-info-icons">
+                                <div class="rewier-info-icon"><img src="images/icons/facebook2.png" alt="facebook">
+                                </div>
+                                <div class="rewier-info-icon"><img src="images/icons/instagram2.png" alt="instagram">
+                                </div>
+                            </div>
+                            <div class="rewier-info-name">Борис</div>
+                        </div>
+                        <div class="rewier-info-photo">
+                            <img src="images/ava/boris.jpg" alt="photo">
+                        </div>
+                    </div>
+                    <div class="rewier-info-title">Любимый бургер:</div>
+                    <div class="rewier-info-love">Медовый Бруно</div>
+                    <div class="rewier-description">
+                        Круто отметили день рождения
+                        Прекрасное обслуживание, заказали
+                        15 бургеров на всех, никто не остался равнодушным! В общем Я рекомендую этот ресторан - Наш
+                        ресторан.
+                    </div>
+                </div>
+                <div class="review-slider">
+                    <div class="rewier-info">
+                        <div class="rewier-info-about">
+                            <div class="rewier-info-icons">
+                                <div class="rewier-info-icon"><img src="images/icons/facebook2.png" alt="facebook">
+                                </div>
+                                <div class="rewier-info-icon"><img src="images/icons/instagram2.png" alt="instagram">
+                                </div>
+                            </div>
+                            <div class="rewier-info-name">Петр</div>
+                        </div>
+                        <div class="rewier-info-photo">
+                            <img src="images/ava/piter.jpg" alt="photo">
+                        </div>
+                    </div>
+                    <div class="rewier-info-title">Любимый бургер:</div>
+                    <div class="rewier-info-love">Огненный Нэшвилл</div>
+                    <div class="rewier-description">
+                        Круто отметили день рождения
+                        Прекрасное обслуживание, заказали
+                        15 бургеров на всех, никто не остался равнодушным! В общем Я рекомендую этот ресторан - Наш
+                        ресторан.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stocks" id="stocks">
+        <div class="container">
+            <h2>Наши акции</h2>
+
+            <div class="stocks-items">
+                <div class="stocks-item wow animate__slideInLeft" id="stock1">
+                    <div class="stocks-item-info">
+                        <div class="stocks-item-title">Веганское меню по вторникам</div>
+                        <div class="stocks-item-number">-20%</div>
+                    </div>
+                </div>
+                <div class="stocks-item wow animate__slideInDown" id="stock2">
+                    <div class="stocks-item-info">
+                        <div class="stocks-item-title">Пробники-бургеры</div>
+                        <div class="stocks-item-text">найди любимый вкус!</div>
+                    </div>
+                </div>
+                <div class="stocks-item wow animate__slideInRight" id="stock3">
+                    <div class="stocks-item-info">
+                        <div class="stocks-item-text">Набор, созданный для праздников:</div>
+                        <div class="stocks-item-title470">Набор «Большая компания»</div>
+                        <div class="stocks-item-title">«Большая компания»</div>
+                        <div class="stocks-item-number">10 шт <span>всего</span> 2000 руб.</div>
+
+                    </div>
+                </div>
+                <div class="stocks-item wow animate__slideInUp" id="stock4">
+                    <div class="stocks-item-info">
+                        <div class="stocks-item-text">Изучаем подводный мир</div>
+                        <div class="stocks-item-title">С 14ч по 16ч бургеры с морепродуктами:</div>
+                        <div class="stocks-item-number">2=1</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="order" id="order">
+        <div class="container">
+            <h2>Забронировать стол</h2>
+            <div class="order-main">
+                <div class="order-image wow animate__backInLeft">
+                    <img src="images/order.png" alt="big burger">
+                </div>
+                <div class="order-info wow animate__backInRight">
+                    <div class="order-text delete">
+                        Ждем тебя в BoomBurger прямо сейчас. Оформи бронь в течение 30 минут
+                        и получи напиток в подарок!
+                    </div>
+
+                    <div class="count delete">
+                        <div class="count-background">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="timer"></div>
+                        <div class="count-name">
+                            <div>минуты</div>
+                            <div>секунды</div>
+                        </div>
+                    </div>
+
+                    <div class="order-input delete">
+                        <div>
+                            <input type="text" placeholder="Ваше имя" id="name">
+                            <div class="error-input">Введите ваше имя</div>
+                        </div>
+                        <div>
+                            <input type="text" class="phone" id="phone" placeholder="+7(___)-___-__-__">
+                            <div class="error-input">Введите номер телефона</div>
+                        </div>
+                        <button class="btn" id="submit">Забронировать стол</button>
+                        <div class="order-politic">Нажимая на кнопку вы подтверждаете ваше согласие с <a
+                                href="#">политикой
+                                конфиденциальности</a>
+                            и обработкой персональных данных</div>
+                    </div>
+                    <div class="order-success">
+                        <div class="order-success-title"> Поздравляем! Вы получаете наш фирменный напиток в ПОДАРОК!
+                        </div>
+                        <div class="order-success-info"> Менеджер свяжется с вами в течение нескольких минут!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="peppers">
+                <img src="images/peppers.png" alt="перчики">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo"><img src="images/logo.png" alt="logo"> </div>
+
+            <div class="footer-adress">
+                <div class="footer-adress-text">г. Москва, м. Лубянка Никольская ул., 24</div>
+                <div class="footer-adress-phone">+7 (495) 221-24-34, +7 (495) 287-24-96</div>
+            </div>
+            <div class="footer-icons">
+                <div>
+                    <img src="images/icons/facebook.png" alt="facebook">
+                </div>
+                <div>
+                    <img src="images/icons/instagram.png" alt="instagram">
+                </div>
+                <div>
+                    <img src="images/icons/youtube.png" alt="youtube">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="loader">
+        <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/slick.js"></script>
+    <script src="scripts/inputmask.min.js"></script>
+    <script src="scripts/jquery.inputmask.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

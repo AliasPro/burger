@@ -1,0 +1,924 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu ul a {
+        padding: 0 15px;
+    }
+
+    .main-stock {
+        right: 227px;
+    }
+
+    .main-text h1 {
+        font-size: 52px;
+    }
+
+    .main-stock-info {
+        right: 190px;
+    }
+
+    .advantages-item-text {
+        z-index: 1;
+    }
+
+    .about-image {
+        left: 0;
+    }
+
+    .differences-descriptions .big-burger img {
+        width: 550px;
+    }
+
+    .food-menu-slider {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .slick-prev {
+        left: -46px;
+    }
+
+    .slick-next {
+        right: -22px;
+    }
+
+    .stocks-item-title {
+        font-size: 20px;
+    }
+
+    #stock1 .stocks-item-info {
+        max-width: 200px;
+    }
+
+    #stock4 .stocks-item-info {
+        width: 510px;
+    }
+
+    #stock4 .stocks-item-title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    #stock3 .stocks-item-number {
+        font-size: 35px;
+        width: 373px;
+        letter-spacing: -1px;
+        font-weight: normal;
+    }
+
+    .order-image img {
+        left: 0;
+    }
+
+    .peppers {
+        left: 850px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .main-stock {
+        right: 170px;
+    }
+
+    .main-image img {
+        max-width: 500px;
+    }
+
+    .reviews-slider {
+        max-width: 870px;
+    }
+
+    .review-slider {
+        max-width: 400px;
+        min-width: 200px;
+    }
+
+    .stocks-items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .stocks-item:nth-child(3) {
+        grid-row: 1 / 3;
+        grid-column: 2;
+    }
+
+    #stock1 .stocks-item-info {
+        left: calc(50% - 60px);
+    }
+
+    #stock2 .stocks-item-info {
+        left: calc(50% - 185px);
+    }
+
+    #stock4 .stocks-item-info {
+        left: calc(50% - 230px);
+    }
+
+    .peppers {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .order-image img {
+        width: 575px;
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main .container {
+        display: block;
+        text-align: center;
+        justify-content: left;
+    }
+
+    .main-info {
+        display: block;
+    }
+
+    .main-text h1 {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .main-text-action {
+        position: relative;
+        top: 760px;
+    }
+
+    .main-text-description {
+        margin: 0 auto;
+    }
+
+    .main-stock {
+        right: 0;
+    }
+
+    .main-image {
+        bottom: 220px;
+    }
+
+    .main-image-description {
+        position: relative;
+        left: 50%;
+        bottom: 300px;
+    }
+
+    .main-stock-info {
+        right: 74px;
+        top: 95px;
+    }
+
+    .main-stock-price {
+        top: 25px;
+        left: 10px;
+    }
+
+    .advantages {
+        text-align: left;
+        position: relative;
+        top: 337px;
+    }
+
+    .reviews-slider .slick-prev {
+        left: 35%;
+        top: 110%;
+    }
+
+    .reviews-slider .slick-next {
+        left: 55%;
+        top: 110%;
+    }
+
+}
+
+
+@media screen and (max-width: 880px) {
+
+    .menu {
+        margin-right: 0;
+    }
+
+    .menu ul a {
+        padding: 0px 7px;
+        font-size: 14px;
+    }
+
+    .order-image img {
+        width: 510px;
+        bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header .container {
+
+        justify-content: left;
+    }
+
+    .menu {
+        margin-left: 15px;
+    }
+
+    .adress {
+        display: none;
+    }
+
+    .about {
+        padding: 0px;
+    }
+
+    .about-image {
+        position: static;
+    }
+
+    .about-image img {
+        max-width: 600px;
+    }
+
+    .differences {
+        padding: 120px 0 150px;
+    }
+
+    .differences-descriptions {
+        display: block;
+    }
+
+    .differences-descriptions .big-burger {
+        left: 0;
+        bottom: 0;
+        top: 200px;
+    }
+
+    .differences-descriptions .big-burger img {
+        width: 322px;
+    }
+
+    .differences-items {
+        flex-direction: row;
+    }
+
+    #dog,
+    #dance {
+        left: 0;
+        bottom: 200px;
+    }
+
+    #plant,
+    #cooking {
+        left: 0;
+        bottom: 0;
+    }
+
+    .slick-prev {
+        left: 35%;
+        top: 110%;
+    }
+
+    .slick-next {
+        left: 55%;
+        top: 110%;
+    }
+
+    .stocks-item-text {
+        font-size: 20px;
+    }
+
+    #stock3 .stocks-item-info {
+        width: 250px;
+        left: calc(50% - 125px);
+    }
+
+    #stock3 .stocks-item-number {
+        font-size: 25px;
+        max-width: 250px;
+    }
+
+    .order {
+        padding-bottom: 200px;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+    .order-info {
+        left: calc(50% - 131px);
+    }
+
+    .order-text {
+        text-align: center;
+    }
+
+    .count {
+        left: calc(50% - 90px);
+    }
+
+    .order-politic {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    .menu ul a {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 520px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    .header {
+        padding-top: 23px;
+    }
+
+    .header .logo {
+        margin: 0 auto;
+    }
+
+    .main {
+        margin-top: 23px;
+    }
+
+    .main-stock-info img {
+        width: 310px;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+        z-index: 999;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto
+    }
+
+    .adress {
+        display: none
+    }
+
+    .menu-min {
+        position: absolute;
+        right: 45px;
+        top: 24px;
+    }
+
+    .menu-min svg {
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .main-text h1 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .main-text-action {
+        top: 422px;
+    }
+
+    .main-text-description {
+        font-size: 12px;
+        width: 285px;
+    }
+
+    .main-image {
+        bottom: 245px;
+    }
+
+    .main-image img {
+        width: 315px;
+    }
+
+    .main-image-description {
+        position: relative;
+        left: 20%;
+        bottom: 220px;
+    }
+
+    .main-image-description h3 {
+        font-size: 18px;
+    }
+
+    .main-image-description div {
+        font-size: 12px;
+    }
+
+    .main-stock-info {
+        top: 26px;
+    }
+
+    .main-stock-description {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-stock-description div {
+        width: 64px;
+        font-size: 12px;
+        padding: 24px 7px;
+    }
+
+    .main-stock-price {
+        top: 144px;
+        left: 10px;
+    }
+
+    .advantages {
+        display: block;
+        top: 337px;
+    }
+
+    .advantages-item-text {
+        font-size: 12px;
+    }
+
+    .about {
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+
+    .advantages-item {
+        padding-top: 10px;
+        justify-content: center;
+    }
+
+    .about-description div {
+        width: 270px;
+        font-size: 12px;
+    }
+
+    .about-description div:last-child {
+        width: 287px;
+    }
+
+    .about-image img {
+        max-width: 400px;
+    }
+
+    .differences {
+        padding-top: 50px;
+    }
+
+    .differences-title {
+        margin-left: 0;
+    }
+
+    .differences-title img {
+        display: none;
+    }
+
+    .food-menu {
+        padding-bottom: 100px;
+    }
+
+    .food-menu-categories {
+        padding: 0 20px;
+    }
+
+    .food-menu-slider {
+        max-width: 320px;
+    }
+
+    .food-menu-slider-item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .food-menu-slider-item img {
+        width: 300px;
+    }
+
+    .slider-description {
+
+        padding: 0px;
+    }
+
+    .slider-description-title {
+        font-size: 16px;
+    }
+
+    .slider-description-text {
+        font-size: 12px;
+    }
+
+    .rewier-info-name {
+        font-size: 22px;
+    }
+
+    .rewier-info-love {
+        font-size: 12px;
+    }
+
+    .rewier-description {
+        font-size: 12px;
+        width: 235px;
+    }
+
+    .stocks-items {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 15px;
+    }
+
+    .stocks-item-title {
+        font-size: 18px;
+    }
+
+    .stocks-item-number {
+        font-size: 36px;
+    }
+
+    .stocks-item:nth-child(3) {
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+    .stocks-item:nth-child(4) {
+        grid-column: 1;
+    }
+
+    #stock3 .stocks-item-info {
+        top: 10px;
+    }
+
+    #stock3 .stocks-item-title {
+        display: none;
+    }
+
+    #stock3 .stocks-item-text {
+        display: none;
+    }
+
+    .stocks-item-title470 {
+        display: block;
+        /* font-size: 25px; */
+        font-family: "FormularBold";
+    }
+
+    #stock3 .stocks-item-number {
+        font-size: 30px;
+        margin-top: 10px;
+        max-width: 270px;
+    }
+
+    #stock3 .stocks-item-number span {
+        color: transparent;
+    }
+
+    #stock4 {
+        background-image: url(../images/stocks4_320.png);
+    }
+
+    #stock4 .stocks-item-text {
+        display: none;
+    }
+
+    #stock4 .stocks-item-title {
+        width: 195px;
+        font-size: 18px;
+        margin-left: 80px;
+    }
+
+    #stock4 .stocks-item-number {
+        width: 400px;
+    }
+
+    .peppers {
+
+        display: none;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .footer .logo {
+        order: 1;
+    }
+
+    .footer-adress {
+        order: 3;
+        padding-left: 0;
+    }
+
+    .footer-icons {
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 381px) {
+
+    .reviews .container {
+        padding-right: 0;
+        padding-left: 4px;
+    }
+
+    .review-slider {
+        margin: 5px;
+        padding: 20px 0px 26px 14px;
+        box-sizing: content-box;
+    }
+
+    .rewier-info-icon img {
+        width: 22px;
+    }
+
+    .rewier-info-name {
+        padding-top: 27px;
+    }
+
+    .rewier-info-photo img {
+
+        max-width: 60px;
+    }
+
+    .rewier-info-title {
+        font-size: 12px;
+    }
+
+    .rewier-info-love {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .header {
+        padding-bottom: 15px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .main {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .main-text h1 {
+        width: 288px;
+        padding-bottom: 14px;
+    }
+
+    .main-text-description {
+        line-height: 1.5;
+    }
+
+    .main-stock-info {
+        right: 20px;
+        top: 28px;
+    }
+
+    .main-image {
+        bottom: 260px;
+    }
+
+    .main-stock-info {
+        right: 20px;
+        top: 28px;
+    }
+
+    .main-image-description {
+        left: 20px;
+        bottom: 240px;
+    }
+
+    .main-text-action {
+        top: 394px;
+        margin-bottom: 110px;
+    }
+
+    .advantages {
+        margin-left: 0;
+        top: 295px;
+    }
+
+    .about {
+        padding-bottom: 0;
+    }
+
+    .about-description div {
+        line-height: 1.325;
+    }
+
+    .about-image img {
+        width: 370px;
+    }
+
+    .differences {
+        padding-bottom: 142px;
+    }
+
+    .differences-item {
+        width: 147px;
+    }
+
+    .differences-item div {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    #plant img {
+        width: 30px;
+    }
+
+    #cooking {
+        width: 130px;
+    }
+
+    #cooking img {
+        width: 55px;
+    }
+
+    #dance img {
+        width: 45px;
+    }
+
+    #dog img {
+        width: 40px;
+    }
+
+    .differences-descriptions .big-burger {
+        top: 155px;
+    }
+
+    .differences-descriptions .big-burger img {
+        width: 310px;
+    }
+
+    .food-menu h2 {
+        padding-bottom: 28px;
+    }
+
+    .food-menu-filter {
+        padding-bottom: 0;
+        width: 270px;
+    }
+
+    .food-menu-categories {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .food-menu-categories div {
+        font-size: 10px;
+    }
+
+    .food-menu-categories img {
+        width: 30px;
+    }
+
+    .reviews-title img {
+        display: none;
+    }
+
+    .reviews-title {
+        right: 0;
+    }
+
+    .reviews-slider {
+        height: 560px;
+    }
+
+    .stocks {
+        padding-bottom: 20px;
+    }
+
+    .stocks-items {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 23px;
+    }
+
+    .stocks-item {
+        height: 107px;
+    }
+
+    #stock1 .stocks-item-info {
+        left: calc(50% - 48px);
+        bottom: 5px;
+        width: 180px;
+    }
+
+    #stock2 .stocks-item-info {
+        bottom: 64px;
+    }
+
+    .stocks-item-text {
+        font-size: 15px;
+    }
+
+    #stock3 {
+        order: 1;
+    }
+
+    #stock3 .stocks-item-number {
+        font-size: 20px;
+        margin-top: 4px;
+        margin-left: 0px;
+    }
+
+    #stock3 .stocks-item-number span {
+        width: 115px;
+    }
+
+    #stock4 .stocks-item-info {
+        bottom: 0px;
+        left: calc(50% - 213px);
+    }
+
+    #stock4 {
+        height: 100px;
+    }
+
+    #stock4 .stocks-item-number {
+        width: 384px;
+    }
+
+    .stocks-item-title470 {
+        font-size: 18px;
+    }
+
+    .order-main {
+        padding-top: 5px;
+    }
+
+    .order-text {
+        font-size: 12px;
+        line-height: 1.5;
+        width: 245px;
+        padding-bottom: 22px;
+    }
+
+    .order-input {
+        margin-top: 20px;
+    }
+
+    .order-input .btn {
+        margin-top: 0px;
+    }
+
+    .order-politic {
+        max-width: 188px;
+        font-size: 9px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding-top: 137px;
+    }
+
+    .footer .container {
+        row-gap: 35px;
+    }
+
+    .footer-icons img {
+        width: 24px;
+    }
+
+    .footer-icons div:nth-child(3) img {
+        width: 33px;
+    }
+
+    .footer-adress {
+        line-height: 1.515;
+    }
+}
